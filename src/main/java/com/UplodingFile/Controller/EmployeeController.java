@@ -63,6 +63,16 @@ public class EmployeeController {
 		return new ResponseEntity<Employee>(emplservice.saveEmployee(employee),HttpStatus.CREATED);
 	}
 	
+
+
+
+
+
+//search employee by id
+//search employee by id
+
+//search employee by id
+
 	
 	
 	
