@@ -70,14 +70,6 @@ public class EmployeeController {
 
 
 
-//search employee
-
-	
-	
-	
-	//search employee by id
-	//search employee by id
-
 	//search employee
 	@GetMapping("/employee/{InvoiceNo}")
 	public ResponseEntity<Employee> getEmployeeById(@PathVariable("InvoiceNo") Integer InvoiceNo){
