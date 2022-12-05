@@ -129,14 +129,6 @@ public class EmployeeController {
 	
 	
 
-@PostMapping("/searchEmployee/{InvoiceNo}")
-public ResponseEntity<?> getEmployeeByIdName(@PathVariable ("InvoiceNo") int InvoiceNo,@RequestBody Employee employee) throws UserNotFoundException{
-
-	
-	return new ResponseEntity<Employee>(emplservice.getEmployeeByIdName(employee,InvoiceNo), HttpStatus.OK);
-	
-	}
- 
 
 	 
 //search Employee byId in body

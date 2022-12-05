@@ -14,9 +14,6 @@ public interface EmplService {
 	Employee getEmployeeById(Integer InvoiceNo);
 	Employee UpdateEmployee(Employee employee, Integer InvoiceNo);
 	void deleteEmployee(int InvoiceNo);
-
-	Employee getEmployeeByIdName(Employee employee, int invoiceNo);
-
 	Employee findById(int invoiceNo);
 
 	}

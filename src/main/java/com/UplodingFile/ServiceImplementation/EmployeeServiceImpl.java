@@ -81,15 +81,6 @@ public class EmployeeServiceImpl implements EmplService{
 	}
 
 	@Override
-	public Employee getEmployeeByIdName(Employee employee, int invoiceNo) {
-		// TODO Auto-generated method stub
-		
-		
-		return emprepo.findById(invoiceNo).orElseThrow(()->new ResourceNotFoundException("Employee","InvoiceNo",invoiceNo));
-		
-	}
-
-	@Override
 	public Employee findById(int invoiceNo) {
 		// TODO Auto-generated method stub
 		return emprepo.findById(invoiceNo).orElseThrow(()->new ResourceNotFoundException("Employee","InvoiceNo",invoiceNo));
